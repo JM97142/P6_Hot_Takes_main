@@ -5,7 +5,7 @@ const router = express.Router();
 // Importation controllers
 const userCtrl = require('../controllers/user');
 
-// Méthodes
+// Routes
 router.post('/signup', userCtrl.signup);
 router.post('/login', userCtrl.login);
 

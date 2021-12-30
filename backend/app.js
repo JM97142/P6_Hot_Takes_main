@@ -12,7 +12,7 @@ const sauceRoutes = require("./routes/sauce");
 // Application Express
 const app = express();
 
-// Connexion Base de données
+// Connexion base de données
 mongoose.connect(`mongodb+srv://${process.env.DB_USER}:${process.env.DB_Pass}@cluster0.bceat.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`,
   { useNewUrlParser: true, 
     useUnifiedTopology: true })
